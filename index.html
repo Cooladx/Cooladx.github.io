@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <a class="prthome" href="#home">Portfo<span>lio.</span> </a>
+        <a class="homeright" href="#home">Home</a>
+        <a class="homeright" href="#about">About</a>
+        <a class="homeright" href="#skills">Skills</a>
+        <a class="homeright" href="#projects">Projects</a>
+        <a class="homeright" href="#contact">Contact</a>
+      </nav>
+      <!-- Home start -->
+      <section class="home" id="home">
+        <div class="max-width">
+          <div class="home-content">
+            <div class="text-1">Hello I'm</div>
+            <div class="text-2"><h1>Mike Nguyen</h1></div>
+            <div class="text-3">
+              <button class="web">
+                <a
+                  href="https://calendly.com/mikeynguyen29/15min?preview_source=et_card&month=2024-04&date=2024-04-22"
+                  >Book with me</a
+                >
+              </button>
+              <button class="web">Who am I?</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home end -->
+    </header>
+
+    <!-- About Me start -->
+    <section class="aboutme" id="about">
+    <div class="max-width">
+      <h2 class="whoami">About Me</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img
+            class="me"
+            src="images/Me.jpeg"
+            alt="this is Mike!"
+            height="200"
+            width="200"
+          />
+        </div>
+        <div class="column right">
+          <div class="text-4">
+            <p>
+              I'm a CS student and hungry to learn more! I am working on more
+              projects and constantly practicing skills to become a FullStack
+              Developer. I am a sophomore getting my B.S in Computer Science
+              from SUNY Polytechnic Institute.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- About Me end -->
+
+    <!--  -->
+    <!--  -->
+    <!-- Skills section start -->
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2>My skills</h2>
+        <div class="skills-content">
+          <div class="column left2">
+            <h3>My personal experience</h3>
+            <p>
+              I am a college student majoring in Computer Science. I possess a
+              keen interest in React Js development and continually strive to
+              enhance my skills. I'm adept at estimating future tasks and
+              integrating client feedback into my work. I am a motivated,
+              self-driven and a quick learner. My proficiency extends to HTML,
+              CSS, Git, Vmware, Bootstrap. I have familiarity with Docker,
+              C/C++. My goal is to stay up to date of the latest front-end
+              development tools and frameworks to excel in today's dynamic
+              technology landscape.
+            </p>
+          </div>
+          <div class="column right2">
+            
+            <img class="icons" src="images/html5.png" alt="html icon" height="80" width="80" />
+            <img class="icons" src="images/css3.png" alt="css icon" height="80" width="80" />
+            <img class="icons" src="images/git.png" alt="git icon" height="80" width="80" />
+            <img class="icons" src="images/javascript.png" alt="javascript icon" height="80" width="80" />
+            <img class="icons" src="images/bootstrap.png" alt="bootstrap icon" height="80" width="80" />
+            <img class="icons" src="images/docker.jpg" alt="docker icon" height="80" width="80" />
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills section end -->
+    <!-- Projects sections start -->
+    <section class="projects" id="projects">
+      <div class="max-width">
+        <h2>My projects</h2>
+        <img src="images/file.png" height="250" width="250">
+        <div class="personalprojects">
+          <div class="card"> 
+          <img
+            src="images/placeholder.jpg"
+            alt="This is my 1st project"
+            height="200"
+            width="200"
+          />
+          <p class="text-5"> Rock Papers scissors project</p>
+        </div>
+        <div class="card"> 
+          <img
+            src="images/placeholder.jpg"
+            alt="This is my 2nd project"
+            height="200"
+            width="200"
+          />
+          <p class="text-5"> react project</p>
+        </div>
+        <div class="card">
+          <a href="https://spiffy-squirrel-e20973.netlify.app/">
+          <img
+            src="images/placeholder.jpg"
+            alt="This is my 3rd project"
+            height="200"
+            width="200"
+          />
+        </a> 
+          <p class="text-5"> Recipes project</p>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project sections end -->
+
+    <section class="contact" id="contact">
+      <h3 class="reach">Contact Form</h3>
+
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

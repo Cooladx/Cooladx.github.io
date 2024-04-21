@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.prthome span {
+  color: green;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a.prthome {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Pacifico";
+  margin-right: 1250px;
+
+  transition: all 0.2s ease;
+}
+.menu a {
+  list-style-type: none;
+  text-align: right;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  height: 100vh;
+  min-height: 500px;
+}
+
+a.homeright {
+  padding-right: 10px;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  color: crimson;
+}
+
+.max-width {
+  width: 1900px;
+  max-width: 1900px;
+}
+
+.text-1 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 20rem;
+  margin-bottom: 0.1rem;
+  margin-left: 10rem;
+  font-size: 2.5rem;
+  width: 400px;
+  max-width: 80%;
+}
+
+.text-2 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.5rem;
+  margin-left: 10rem;
+  width: 400px;
+  font-size: 40px;
+  max-width: 80%;
+}
+
+.web {
+  display: inline-block;
+  background: crimson;
+  color: white;
+  padding: 8px 50px;
+  font-size: 25px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+  margin-left: 30px;
+}
+
+.text-3 {
+  width: 900px;
+  margin-left: 100px;
+}
+
+/* home page end */
+
+.about-content {
+  display: flex;
+  height: 600px;
+  margin-left: 6rem;
+}
+
+.column.right {
+  font-size: 30px;
+  line-height: 1.7;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 3rem;
+  margin-left: 6rem;
+  margin-right: 10rem;
+}
+
+.aboutme {
+  height: 700px;
+  max-width: 1970px;
+}
+
+.whoami {
+  text-align: center;
+  width: 700px;
+  margin-bottom: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+img.me {
+  height: 500px;
+  width: 450px;
+  margin-left: 4rem;
+  border-radius: 7rem;
+  border: 8px solid black;
+}
+
+/* about me section end */
+/* Skills section start */
+
+.skills {
+  height: 600px;
+  max-width: 1970px;
+  background-color: black;
+}
+
+.skills-content {
+  color: white;
+  display: flex;
+  margin-top: 6rem;
+  flex-direction: row;
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+.column.left2 {
+  width: 1000px;
+  border: 2px solid red;
+  margin-left: 2rem;
+}
+
+.column.right2 {
+  height: 400px;
+  max-height: 500px;
+  max-width: 350px;
+  margin-left: 9rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+.icons {
+  margin-right: 1.3rem;
+}
+
+/* project section start */
+
+.projects {
+  height: 600px;
+  max-width: 1970px;
+  background-color: white;
+}
+
+.personalprojects {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.text-5 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.card {
+  align-items: center;
+  width: 300px;
+  border: 8px solid black;
+  padding: 1rem;
+  margin-right: 3rem;
+}
+/* contact section */
+
+.contact {
+  height: 600px;
+  max-width: 1970px;
+  background-color: black;
+}
+
+form {
+  margin-top: 6rem;
+}
+
+h3.reach {
+  color: white;
+  margin-top: 6rem;
+  max-width: 1200px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
