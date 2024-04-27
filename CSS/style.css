@@ -190,12 +190,21 @@ h3 {
   font-weight: 600;
 }
 
+.paper {
+  display: block;
+  margin: 0 auto; /* This will center the image horizontally */
+}
+
 .card {
   align-items: center;
   width: 300px;
   border: 8px solid black;
   padding: 1rem;
   margin-right: 3rem;
+}
+
+.card img {
+  margin-left: 1.3rem;
 }
 /* contact section */
 
@@ -212,7 +221,8 @@ form {
 h3.reach {
   color: white;
   margin-top: 6rem;
-  max-width: 1200px;
+  max-width: 1800px;
+  padding: 1.5rem;
 }
 
 input[type="text"],
@@ -245,4 +255,281 @@ input[type="submit"]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Media queries 
+### Common Media Query breakpoints:
+| Breakpoint | Description |
+| -------- | ---------- |
+| < 481px | Mobile devices |
+| 481px — 768px | iPads, Tablets |
+| 769px — 1024px | Small screens, laptops |
+| 1025px — 1200px | Desktops, large screens |
+| 1201px and greater | Extra large screens, TV |
+*/
+
+/* extra small */
+
+@media screen and (max-width: 600px) {
+  /* header section */
+
+  .menu {
+    font-size: 20px;
+  }
+
+  header {
+    width: 600px;
+    max-width: 600px;
+  }
+
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertically center children */
+    align-items: flex-start; /* Align items to the left */
+    text-align: left; /* Align text to the left */
+    width: 300px;
+  }
+
+  .text-1 {
+    margin-right: 5rem;
+  }
+
+  .text-3 {
+    width: 18rem;
+  }
+
+  /* about me section */
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 0;
+  }
+  .whoami {
+    width: 400px;
+    margin-left: 3rem;
+  }
+  .max-width {
+    width: 500px;
+  }
+  img.me {
+    width: 200px;
+    height: 200px;
+  }
+  .column.left {
+    width: 200px;
+    margin-right: 5rem;
+  }
+
+  .about-content .experience {
+    font-size: 1.5rem;
+    line-height: 1.8;
+  }
+
+  /* skills-section */
+
+  .skills {
+    width: 600px;
+  }
+
+  .skills-content {
+    color: white;
+    display: flex;
+    margin-top: 0.6rem;
+    flex-direction: column;
+    font-size: 0.8rem;
+    line-height: 1.7;
+    width: 100%; /* Adjusted width to fill the container */
+    max-width: 600px;
+  }
+
+  .column.left2 {
+    width: 100%; /* Adjusted width to fill the container */
+    max-width: 400px; /* Set a maximum width for the left column */
+    margin-left: 2rem;
+  }
+
+  .column.right2 {
+    width: 100%; /* Adjusted width to fill the container */
+    max-width: 400px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  /* Change the display property for icons */
+
+  /* project section */
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    width: 300px;
+    margin-top: 1rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+  }
+
+  .contact {
+    margin-top: 50rem;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  .whoami {
+    width: 400px;
+    margin-left: 3rem;
+  }
+  .max-width {
+    width: 500px;
+  }
+
+  img.me {
+    width: 200px;
+    height: 200px;
+  }
+  .column.left {
+    width: 200px;
+    margin-right: 5rem;
+  }
+
+  .about-content .experience {
+    font-size: 14px;
+    height: 400px;
+  }
+
+  /* skills-section */
+
+  .skills {
+    width: 600px;
+  }
+
+  .skills-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+    line-height: 1.7;
+  }
+
+  .column.left2 {
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for the left column */
+    margin-left: 2rem;
+  }
+
+  .column.right2 {
+    max-width: 400px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  /* Change the display property for icons */
+
+  /* project section */
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    width: 300px;
+    margin-top: 1rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+  }
+
+  .contact {
+    margin-top: 50rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  body {
+    overflow-x: hidden;
+  }
+  .whoami {
+    width: 400px;
+    margin-left: 3rem;
+  }
+  .max-width {
+    width: 500px;
+  }
+  img.me {
+    width: 300px;
+    height: 300px;
+  }
+  .column.left {
+    width: 400px;
+  }
+
+  .experience {
+    font-size: 2rem;
+    width: 450px;
+    line-height: 1.7;
+  }
+
+  /* skills-section */
+
+  .skills {
+    width: 1500px;
+  }
+
+  .skills-content {
+    color: white;
+    display: flex;
+    margin-top: 0.6rem;
+    flex-direction: row;
+    font-size: 0.8rem;
+    line-height: 1.7;
+    width: 1000px;
+  }
+
+  .column.left2 {
+    width: 600px;
+    max-width: 400px; /* Set a maximum width for the left column */
+    margin-left: 2rem;
+  }
+
+  .column.right2 {
+    flex-direction: column; /* Set flex-direction to column */
+    align-items: center; /* Center the items horizontally */
+    max-width: 400px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  /* Change the display property for icons */
+
+  /* project section */
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    width: 300px;
+    margin-top: 1rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+  }
+
+  .contact {
+    margin-top: 50rem;
+  }
 }
