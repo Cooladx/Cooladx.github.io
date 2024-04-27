@@ -301,20 +301,23 @@ input[type="submit"]:hover {
   .home-content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Vertically center children */
-    align-items: flex-start; /* Align items to the left */
+    align-items: flex-end; /* Align items to the left */
     text-align: left; /* Align text to the left */
     width: 300px;
   }
 
   .text-1 {
-    margin-right: 5rem;
+    margin-left: 5rem;
   }
 
   .text-3 {
     width: 18rem;
+    margin-right: -2rem;
   }
 
+  .web {
+    margin-right: -4rem;
+  }
   /* about me section */
 
   .about-content {
