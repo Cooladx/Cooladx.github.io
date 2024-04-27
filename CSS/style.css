@@ -273,6 +273,84 @@ input[type="submit"]:hover {
 
 /* extra small */
 
+@media screen and (max-width: 428px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  .whoami {
+    width: 400px;
+    margin-left: 3rem;
+  }
+  .max-width {
+    width: 500px;
+  }
+
+  img.me {
+    width: 200px;
+    height: 200px;
+  }
+  .column.left {
+    width: 200px;
+    margin-right: 5rem;
+  }
+
+  .about-content .experience {
+    font-size: 14px;
+    height: 400px;
+  }
+
+  /* skills-section */
+
+  .skills {
+    width: 600px;
+  }
+
+  .skills-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+    line-height: 1.7;
+  }
+
+  .column.left2 {
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for the left column */
+    margin-left: 2rem;
+  }
+
+  .column.right2 {
+    max-width: 400px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  /* Change the display property for icons */
+
+  /* project section */
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    width: 300px;
+    margin-top: 1rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+  }
+
+  .contact {
+    margin-top: 50rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   /* header section */
 
@@ -356,84 +434,6 @@ input[type="submit"]:hover {
 
   .column.right2 {
     width: 100%; /* Adjusted width to fill the container */
-    max-width: 400px;
-    margin-left: 2rem;
-    margin-top: 1rem;
-  }
-
-  /* Change the display property for icons */
-
-  /* project section */
-  .projects {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .card {
-    width: 300px;
-    margin-top: 1rem;
-    margin-left: 1.6rem;
-    margin-right: 1.6rem;
-  }
-
-  .contact {
-    margin-top: 50rem;
-  }
-}
-
-@media screen and (max-width: 428px) {
-  .about-content {
-    display: flex;
-    flex-direction: column;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-  .whoami {
-    width: 400px;
-    margin-left: 3rem;
-  }
-  .max-width {
-    width: 500px;
-  }
-
-  img.me {
-    width: 200px;
-    height: 200px;
-  }
-  .column.left {
-    width: 200px;
-    margin-right: 5rem;
-  }
-
-  .about-content .experience {
-    font-size: 14px;
-    height: 400px;
-  }
-
-  /* skills-section */
-
-  .skills {
-    width: 600px;
-  }
-
-  .skills-content {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    margin-top: 0.6rem;
-    font-size: 0.8rem;
-    line-height: 1.7;
-  }
-
-  .column.left2 {
-    width: 100%;
-    max-width: 400px; /* Set a maximum width for the left column */
-    margin-left: 2rem;
-  }
-
-  .column.right2 {
     max-width: 400px;
     margin-left: 2rem;
     margin-top: 1rem;
